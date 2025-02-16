@@ -30,7 +30,6 @@ static const std::map<std::string, int> leftAssociativeOperatons=
 		{"-", 2},
 		{"/", 3},
 		{"*", 3}
-	//	{"^", 5}
 };
 
 static const std::map<std::string, int> rightAssociativeOperatons =
@@ -45,28 +44,6 @@ static const std::map<std::string, int> noneAssociativeOperatons =
 
 int Token::getPrecendance() const
 {
-	//static std::map<std::string, int> leftAssociativeOperatons = //Left-associative operations
-	//{
-	//	{"+", 2},
-	//	{"-", 2},
-	//	{"/", 3},
-	//	{"*", 3}
-	//	//{"^", 5}
-	//};
-
-
-	//static std::map<std::string, int> rightAssociativeOperatons = //Right-associative operations
-	//{
-	//	//{"-", 4}, // unary negation
-	//	{"^", 5}
-	//};
-
-	//static std::map<std::string, int> noneAssociativeOperatons = //Right-associative operations
-	//{
-	//	{"-", 4}, // unary negation
-	//	//{"^", 5}
-	//};
-
 	switch (_opAssoc)
 	{
 		case LEFT:
@@ -105,30 +82,11 @@ int Token::getPrecendance() const
 			}
 			break;
 
-			//throw std::logic_error(std::format("Token \"{}\" is not an operatator, impossible.", _tokenName));
-			//break;
 	}
 }
 
-Token::OperationAssociativity Token::getStrOpAssoc(std::string opName){
-
-	//static std::map<std::string, int> leftAssociativeOperatons = //Left-associative operations
-	//{
-	//	{"+", 2},
-	//	{"-", 2},
-	//	{"/", 3},
-	//	{"*", 3}
-	//	//{"^", 5}
-	//};
-
-
-	//static std::map<std::string, int> rightAssociativeOperatons = //Right-associative operations
-	//{
-	//	{"-", 4}, // unary negation
-	//	{"^", 5}
-	//};
-
-
+Token::OperationAssociativity Token::getStrOpAssoc(std::string opName)
+{
 	if (rightAssociativeOperatons.count(opName)) //contains()
 	{
 		return RIGHT;

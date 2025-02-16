@@ -1,0 +1,11 @@
+# ninja log v6
+16	880	7614252934297882	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Node.cpp.obj	52afa7f7b28399d0
+4	1048	7614252934186179	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Error.cpp.obj	f0ef2824589b7c7d
+38	1138	7614252934544799	Client/CMakeFiles/math_parese.dir/source/main.cpp.obj	7f131b5da46c0ccf
+28	2177	7614252934420914	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Token.cpp.obj	a2236d824dbef48
+23	2540	7614252934375451	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.cpp.obj	a8a49b6a5444a1ce
+33	3728	7614252934461135	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Tokenizator.cpp.obj	26a814d6a61b707
+12	3948	7614252934253603	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ExpressionTree.cpp.obj	29cc0e124aac6d7d
+3954	4220	7614252976161611	SymbolicDifferentiationAlg/libshared_lib.dll	db1309874e4e3163
+3954	4220	7614252976161611	SymbolicDifferentiationAlg/libshared_lib.dll.a	db1309874e4e3163
+4220	4422	7614252976340846	Client/math_parese.exe	5d5963a1880c5e09

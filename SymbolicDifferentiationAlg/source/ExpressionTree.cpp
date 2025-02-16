@@ -80,7 +80,6 @@ Node* ExpressionTree::shuntingYardAlgTree(const std::vector<Token>& expression) 
 
 	std::stack<Token> operators;
 	std::deque<Node*> values;
-	//std::vector<Token> 
 	auto fromStackToTree = [&]() {
 
 		Node* right = nullptr, * left = nullptr;
@@ -112,7 +111,6 @@ Node* ExpressionTree::shuntingYardAlgTree(const std::vector<Token>& expression) 
 		values.push_front(opNode);
 
 		};
-	//[&] ��������, ��� ��� ����������, ����������� �� ������
 
 	for (const auto& token : expression)
 	{

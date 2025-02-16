@@ -29,10 +29,6 @@ private:
 	
 	Node* head;
 
-	//std::vector<Token> tokensList;
-
-	//Node* buildTreeFromRPNTokensListFunc(std::vector<Token>& tokenList, int& tokenListLength);
-
 	Node* shuntingYardAlgTree(const std::vector<Token>& tokensList);
 
 	void deleteTree(Node* node);

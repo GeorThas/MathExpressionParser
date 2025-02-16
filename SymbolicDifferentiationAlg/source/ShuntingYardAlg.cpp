@@ -10,8 +10,7 @@
 void shuntingYardArray(const std::vector<Token>& expr, std::vector<Token>& outQueue)
 {
 	std::stack<Token> stack;
-	auto fromStackToQueue = [&]() { outQueue.push_back(stack.top()); stack.pop(); }; //лямбда, которая перемещает токен с вершины стека в очередь вывода.
-	//[&] означает, что все переменные, фиксируются по ссылке
+	auto fromStackToQueue = [&]() { outQueue.push_back(stack.top()); stack.pop(); }; 
 
 	for (const auto& token : expr) 
 	{
@@ -55,7 +54,7 @@ void shuntingYardArray(const std::vector<Token>& expr, std::vector<Token>& outQu
 				fromStackToQueue();
 			break;
 
-			/*case Token::SEPARATOR: // нужна доработка!
+			/*case Token::SEPARATOR: // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!
 				if (stack.empty())
 					throw Error("Paranthesis or separator missed!", Error::Syntax);
 				while (stack.top().getType() != Token::L_PARENTHESIS)
@@ -114,7 +113,7 @@ Node* shuntingYardAlgTree(const std::vector<Token>& expr) {
 		values.push_front(opNode);
 
 		};
-	//[&] означает, что все переменные, фиксируются по ссылке
+	//[&] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 	for (const auto& token : expr)
 	{
@@ -168,7 +167,7 @@ Node* shuntingYardAlgTree(const std::vector<Token>& expr) {
 
 			break;
 
-			/*case Token::SEPARATOR: // нужна доработка!
+			/*case Token::SEPARATOR: // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!
 				if (stack.empty())
 					throw Error("Paranthesis or separator missed!", Error::Syntax);
 				while (stack.top().getType() != Token::L_PARENTHESIS)
@@ -195,65 +194,12 @@ Node* shuntingYardAlgTree(const std::vector<Token>& expr) {
 	return values.front();;
 }
 
-
-
-/*
-	Пока не все токены обработаны:
-
-		-Прочитать токен.
-
-			-Если токен — число, то добавить его в очередь вывода.
-
-			-Если токен — функция, то поместить его в стек.
-
-			-Если токен — разделитель аргументов функции (запятая):
-
-				-Пока токен на вершине стека не открывающая скобка:
-
-					-Переложить оператор из стека в очередь вывода.
-
-					-Если стек закончился до того, как был встречен токен открывающая скобка, то в выражении пропущен разделитель аргументов функции (запятая), либо пропущена открывающая скобка.
-
-			-Если токен — оператор op1, то:
-
-				-Пока присутствует на вершине стека токен оператор op2, чей приоритет выше или равен приоритету op1, и при равенстве приоритетов op1 является левоассоциативным:
-
-					-Переложить op2 из стека в очередь вывода;
-
-				-Положить op1 в стек.
-
-			-Если токен — открывающая скобка, то положить его в стек.
-
-			-Если токен — закрывающая скобка:
-
-				-Пока токен на вершине стека не открывающая скобка:
-
-					-Переложить оператор из стека в очередь вывода.
-
-					-Если стек закончился до того, как был встречен токен открывающая скобка, то в выражении пропущена скобка.
-
-				-Выкинуть открывающую скобку из стека, но не добавлять в очередь вывода.
-
-			-Если токен на вершине стека — функция, переложить её в очередь вывода.
-
-	-Если больше не осталось токенов на входе:
-
-		-Пока есть токены операторы в стеке:
-
-			-Если токен оператор на вершине стека — открывающая скобка, то в выражении пропущена скобка.
-
-			-Переложить оператор из стека в очередь вывода.
-
-	-Конец.
-*/
-
-
 /*
 double countRPN(const std::vector<Token>& expr)
 {
 	std::stack<double> stack;
 
-	auto getOneToken = [&]() // достать 1 токен
+	auto getOneToken = [&]() // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1 пїЅпїЅпїЅпїЅпїЅ
 	{
 		if (stack.empty())
 			throw Error("Not enough arguments in function!", Error::Syntax);
@@ -264,14 +210,14 @@ double countRPN(const std::vector<Token>& expr)
 		return x;
 	};
 
-	auto getTwoTokens = [&]() // достать 2 токена
+	auto getTwoTokens = [&]() // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2 пїЅпїЅпїЅпїЅпїЅпїЅ
 	{
 		double x = getOneToken(),
 		y = getOneToken();
 		return std::tuple{ y,x };
 	};
 
-	auto checkedDivision = [&](double a, double b) // проверка на допустимость
+	auto checkedDivision = [&](double a, double b) // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	{
 		if (b == 0.f)
 			throw Error("Division by zero", Error::Math);
@@ -325,7 +271,7 @@ double countRPN(const std::vector<Token>& expr)
 				break;
 
 			}
-			case Token::RIGHT: // в принципе доступен только один правоассоциативный оператор
+			case Token::RIGHT: // пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			{
 				auto a = getOneToken();
 				if (str == "-")
