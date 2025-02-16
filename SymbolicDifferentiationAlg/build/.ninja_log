@@ -1,0 +1,19 @@
+# ninja log v6
+24	1928	7612556555189310	CMakeFiles/math_parese.dir/source/ExpressionTree.cpp.obj	338ee6cce8f006cb
+499	646	7612567643801388	math_parese.exe	5cb8a5c354767f96
+56	3813	7614176667807742	CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.cpp.obj	a1c07283ba8bbd52
+28	2612	7612539785972288	CMakeFiles/math_parese.dir/source/Tokenizator.cpp.obj	abd95d378b79124a
+102	454	7614178553772414	libshared_lib.dll	50b222fecf74cc32
+30	298	7614178750567274	build.ninja	3a441f6a96d5ba4b
+65	3150	7614176667993083	CMakeFiles/shared_lib.dir/source/Token.cpp.obj	d9e2fa5dccf54733
+39	4775	7614176667621831	CMakeFiles/shared_lib.dir/source/ExpressionTree.cpp.obj	888b179933267de
+78	4467	7614176668143658	CMakeFiles/shared_lib.dir/source/Tokenizator.cpp.obj	509e2e660d61b9e7
+2	698	7612539785711472	CMakeFiles/math_parese.dir/source/Error.cpp.obj	c4bba585c45dc13f
+100	2071	7614176668310466	CMakeFiles/shared_lib.dir/source/main.cpp.obj	efdfcae49dd9ae16
+9	550	7612539785782836	CMakeFiles/math_parese.dir/source/Node.cpp.obj	2a198853e777cf20
+5	499	7612567638746653	CMakeFiles/math_parese.dir/source/main.cpp.obj	55dd3a4803aba0fd
+14	2247	7612539785818372	CMakeFiles/math_parese.dir/source/ShuntingYardAlg.cpp.obj	8de49d48f0f1e162
+19	1723	7612539785876633	CMakeFiles/math_parese.dir/source/Token.cpp.obj	2670ec5b8c88d112
+30	1643	7614176667621831	CMakeFiles/shared_lib.dir/source/Error.cpp.obj	2e7eb2da1a534091
+102	454	7614178553772414	libshared_lib.dll.a	50b222fecf74cc32
+48	1493	7614176667807742	CMakeFiles/shared_lib.dir/source/Node.cpp.obj	62904e552160b90c
