@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg/cmake_install.cmake")
   include("D:/DevRepo/MathExpressParse/build/Client/cmake_install.cmake")
+  include("D:/DevRepo/MathExpressParse/build/Differentiation/cmake_install.cmake")
 
 endif()
 

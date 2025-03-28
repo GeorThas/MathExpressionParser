@@ -9,4 +9,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)  # Обязательный стандарт
 
 add_subdirectory(SymbolicDifferentiationAlg)                  # Поддиректория с библиотеками
 add_subdirectory(Client)                 # Поддиректория с исходным кодом
+add_subdirectory(Differentiation)                 # Поддиректория с исходным кодом
 #target_link_libraries(math_parese PRIVATE shared_lib )

@@ -1,0 +1,4 @@
+# ninja log v6
+2	513	7648442400684758	CMakeFiles/SymDiffLib.dir/source/diff.cpp.obj	436a7de0511f8337
+10	217	7648449304671235	libSymDiffLib.dll	4ca30b6952328183
+10	217	7648449304671235	libSymDiffLib.dll.a	4ca30b6952328183

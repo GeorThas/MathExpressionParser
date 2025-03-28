@@ -1,0 +1,26 @@
+# ninja log v6
+44	2480	7647197522331204	CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.obj	d42fcca3dbb46315
+78	3192	7647198807209258	CMakeFiles/MathParseLib.dir/source/Tokenizator.obj	5897f1454ffb3873
+32	3654	7647197522225656	CMakeFiles/shared_lib.dir/source/ExpressionTree.obj	2f8e9091f0a0f3e2
+48	2086	7647197522378633	CMakeFiles/shared_lib.dir/source/Token.obj	746c09c4547ea473
+53	3365	7647197522393713	CMakeFiles/shared_lib.dir/source/Tokenizator.obj	957ffd1f8cc516ce
+27	3443	7647211489656830	CMakeFiles/MathParseLib.dir/source/ExpressionTree.cpp.obj	2c5c1fb078079c57
+55	3145	7647211489948412	CMakeFiles/MathParseLib.dir/source/Tokenizator.cpp.obj	faa2c6da2938a1dd
+37	2189	7647211489737710	CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.cpp.obj	b2e2d8bc49f47b0d
+42	1820	7647211489800805	CMakeFiles/MathParseLib.dir/source/Token.cpp.obj	10a4dc67e5e95eda
+40	874	7647197522299945	CMakeFiles/shared_lib.dir/source/Node.obj	2a5bb75e84c6cc24
+61	708	7647198806994085	CMakeFiles/MathParseLib.dir/source/Node.obj	b2551bdafd385940
+73	1905	7647198807022867	CMakeFiles/MathParseLib.dir/source/Token.obj	291979dd30bcf19a
+69	2216	7647198807022867	CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.obj	643a68502f457b63
+21	804	7647211489573394	CMakeFiles/MathParseLib.dir/source/Error.cpp.obj	417bfccff3642526
+3444	3693	7647211526029505	libMathParseLib.dll.a	1833c80b1806c364
+47	839	7647198806835949	CMakeFiles/MathParseLib.dir/source/Error.obj	cc7ba6b5455600a5
+33	702	7647211489710259	CMakeFiles/MathParseLib.dir/source/Node.cpp.obj	7ec32803ff7e3c0b
+3444	3693	7647211526029505	libMathParseLib.dll	1833c80b1806c364
+55	3516	7647198806920697	CMakeFiles/MathParseLib.dir/source/ExpressionTree.obj	2bb3bf61ae78e9ec
+24	982	7647197522144612	CMakeFiles/shared_lib.dir/source/Error.obj	6980479dc0ec9f39
+59	688	7647215874680133	CMakeFiles/MathParseLib.dir/source/Node.cpp.obj	7ec32803ff7e3c0b
+67	2573	7647215874822340	CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.cpp.obj	b2e2d8bc49f47b0d
+50	3835	7647215874599871	CMakeFiles/MathParseLib.dir/source/ExpressionTree.cpp.obj	2c5c1fb078079c57
+3835	4040	7647215914328895	libMathParseLib.dll	1833c80b1806c364
+3835	4040	7647215914328895	libMathParseLib.dll.a	1833c80b1806c364

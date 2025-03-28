@@ -64,92 +64,92 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target shared_lib
+# Object build statements for SHARED_LIBRARY target MathParseLib
 
 
 #############################################
-# Order-only phony target for shared_lib
+# Order-only phony target for MathParseLib
 
-build cmake_object_order_depends_target_shared_lib: phony || .
+build cmake_object_order_depends_target_MathParseLib: phony || .
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Error.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Error.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\Error.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Error.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Error.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\Error.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ExpressionTree.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/ExpressionTree.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\ExpressionTree.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ExpressionTree.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/ExpressionTree.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\ExpressionTree.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Node.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Node.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\Node.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Node.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Node.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\Node.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/ShuntingYardAlg.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\ShuntingYardAlg.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/ShuntingYardAlg.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\ShuntingYardAlg.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Token.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Token.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\Token.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Token.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Token.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\Token.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
-build SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Tokenizator.cpp.obj: CXX_COMPILER__shared_lib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Tokenizator.cpp || cmake_object_order_depends_target_shared_lib
-  DEFINES = -Dshared_lib_EXPORTS
-  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source\Tokenizator.cpp.obj.d
+build SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Tokenizator.cpp.obj: CXX_COMPILER__MathParseLib_unscanned_ D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/source/Tokenizator.cpp || cmake_object_order_depends_target_MathParseLib
+  DEFINES = -DDIFFLIB_EXPORT -DMathParseLib_EXPORTS
+  DEP_FILE = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source\Tokenizator.cpp.obj.d
   FLAGS = -std=gnu++20
   INCLUDES = -ID:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/headers
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
-  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\source
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
+  OBJECT_FILE_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\source
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target shared_lib
+# Link build statements for SHARED_LIBRARY target MathParseLib
 
 
 #############################################
-# Link the shared library SymbolicDifferentiationAlg\libshared_lib.dll
+# Link the shared library SymbolicDifferentiationAlg\libMathParseLib.dll
 
-build SymbolicDifferentiationAlg/libshared_lib.dll SymbolicDifferentiationAlg/libshared_lib.dll.a: CXX_SHARED_LIBRARY_LINKER__shared_lib_ SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Error.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ExpressionTree.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Node.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Token.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Tokenizator.cpp.obj
+build SymbolicDifferentiationAlg/libMathParseLib.dll SymbolicDifferentiationAlg/libMathParseLib.dll.a: CXX_SHARED_LIBRARY_LINKER__MathParseLib_ SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Error.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ExpressionTree.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Node.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Token.cpp.obj SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Tokenizator.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir
+  OBJECT_DIR = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   RESTAT = 1
-  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\shared_lib.dir\
-  TARGET_FILE = SymbolicDifferentiationAlg\libshared_lib.dll
-  TARGET_IMPLIB = SymbolicDifferentiationAlg\libshared_lib.dll.a
-  TARGET_PDB = SymbolicDifferentiationAlg\libshared_lib.pdb
+  TARGET_COMPILE_PDB = SymbolicDifferentiationAlg\CMakeFiles\MathParseLib.dir\
+  TARGET_FILE = SymbolicDifferentiationAlg\libMathParseLib.dll
+  TARGET_IMPLIB = SymbolicDifferentiationAlg\libMathParseLib.dll.a
+  TARGET_PDB = SymbolicDifferentiationAlg\libMathParseLib.pdb
 
 
 #############################################
@@ -186,7 +186,7 @@ build SymbolicDifferentiationAlg/rebuild_cache: phony SymbolicDifferentiationAlg
 #############################################
 # Order-only phony target for math_parese
 
-build cmake_object_order_depends_target_math_parese: phony || cmake_object_order_depends_target_shared_lib
+build cmake_object_order_depends_target_math_parese: phony || cmake_object_order_depends_target_MathParseLib
 
 build Client/CMakeFiles/math_parese.dir/source/main.cpp.obj: CXX_COMPILER__math_parese_unscanned_ D$:/DevRepo/MathExpressParse/Client/source/main.cpp || cmake_object_order_depends_target_math_parese
   DEP_FILE = Client\CMakeFiles\math_parese.dir\source\main.cpp.obj.d
@@ -205,8 +205,8 @@ build Client/CMakeFiles/math_parese.dir/source/main.cpp.obj: CXX_COMPILER__math_
 #############################################
 # Link the executable Client\math_parese.exe
 
-build Client/math_parese.exe: CXX_EXECUTABLE_LINKER__math_parese_ Client/CMakeFiles/math_parese.dir/source/main.cpp.obj | SymbolicDifferentiationAlg/libshared_lib.dll.a || SymbolicDifferentiationAlg/libshared_lib.dll
-  LINK_LIBRARIES = SymbolicDifferentiationAlg/libshared_lib.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build Client/math_parese.exe: CXX_EXECUTABLE_LINKER__math_parese_ Client/CMakeFiles/math_parese.dir/source/main.cpp.obj | SymbolicDifferentiationAlg/libMathParseLib.dll.a || SymbolicDifferentiationAlg/libMathParseLib.dll
+  LINK_LIBRARIES = SymbolicDifferentiationAlg/libMathParseLib.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = Client\CMakeFiles\math_parese.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -239,15 +239,85 @@ build Client/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Client/rebuild_cache: phony Client/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/DevRepo/MathExpressParse/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target SymDiffLib
+
+
+#############################################
+# Order-only phony target for SymDiffLib
+
+build cmake_object_order_depends_target_SymDiffLib: phony || cmake_object_order_depends_target_MathParseLib
+
+build Differentiation/CMakeFiles/SymDiffLib.dir/source/diff.cpp.obj: CXX_COMPILER__SymDiffLib_unscanned_ D$:/DevRepo/MathExpressParse/Differentiation/source/diff.cpp || cmake_object_order_depends_target_SymDiffLib
+  DEFINES = -DSymDiffLib_EXPORTS
+  DEP_FILE = Differentiation\CMakeFiles\SymDiffLib.dir\source\diff.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -ID:/DevRepo/MathExpressParse/Differentiation/headers
+  OBJECT_DIR = Differentiation\CMakeFiles\SymDiffLib.dir
+  OBJECT_FILE_DIR = Differentiation\CMakeFiles\SymDiffLib.dir\source
+  TARGET_COMPILE_PDB = Differentiation\CMakeFiles\SymDiffLib.dir\
+  TARGET_PDB = Differentiation\libSymDiffLib.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target SymDiffLib
+
+
+#############################################
+# Link the shared library Differentiation\libSymDiffLib.dll
+
+build Differentiation/libSymDiffLib.dll Differentiation/libSymDiffLib.dll.a: CXX_SHARED_LIBRARY_LINKER__SymDiffLib_ Differentiation/CMakeFiles/SymDiffLib.dir/source/diff.cpp.obj | SymbolicDifferentiationAlg/libMathParseLib.dll.a || SymbolicDifferentiationAlg/libMathParseLib.dll
+  LINK_LIBRARIES = SymbolicDifferentiationAlg/libMathParseLib.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Differentiation\CMakeFiles\SymDiffLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = Differentiation\CMakeFiles\SymDiffLib.dir\
+  TARGET_FILE = Differentiation\libSymDiffLib.dll
+  TARGET_IMPLIB = Differentiation\libSymDiffLib.dll.a
+  TARGET_PDB = Differentiation\libSymDiffLib.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build Differentiation/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\DevRepo\MathExpressParse\build\Differentiation && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Differentiation/edit_cache: phony Differentiation/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Differentiation/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\DevRepo\MathExpressParse\build\Differentiation && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SD:\DevRepo\MathExpressParse -BD:\DevRepo\MathExpressParse\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Differentiation/rebuild_cache: phony Differentiation/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build libshared_lib.dll: phony SymbolicDifferentiationAlg/libshared_lib.dll
+build MathParseLib: phony SymbolicDifferentiationAlg/libMathParseLib.dll
+
+build SymDiffLib: phony Differentiation/libSymDiffLib.dll
+
+build libMathParseLib.dll: phony SymbolicDifferentiationAlg/libMathParseLib.dll
+
+build libSymDiffLib.dll: phony Differentiation/libSymDiffLib.dll
 
 build math_parese: phony Client/math_parese.exe
 
 build math_parese.exe: phony Client/math_parese.exe
-
-build shared_lib: phony SymbolicDifferentiationAlg/libshared_lib.dll
 
 # =============================================================================
 # Folder targets.
@@ -257,7 +327,7 @@ build shared_lib: phony SymbolicDifferentiationAlg/libshared_lib.dll
 #############################################
 # Folder: D:/DevRepo/MathExpressParse/build
 
-build all: phony SymbolicDifferentiationAlg/all Client/all
+build all: phony SymbolicDifferentiationAlg/all Client/all Differentiation/all
 
 # =============================================================================
 
@@ -269,9 +339,16 @@ build Client/all: phony Client/math_parese.exe
 # =============================================================================
 
 #############################################
+# Folder: D:/DevRepo/MathExpressParse/build/Differentiation
+
+build Differentiation/all: phony Differentiation/libSymDiffLib.dll
+
+# =============================================================================
+
+#############################################
 # Folder: D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg
 
-build SymbolicDifferentiationAlg/all: phony SymbolicDifferentiationAlg/libshared_lib.dll
+build SymbolicDifferentiationAlg/all: phony SymbolicDifferentiationAlg/libMathParseLib.dll
 
 # =============================================================================
 # Built-in targets
@@ -280,14 +357,14 @@ build SymbolicDifferentiationAlg/all: phony SymbolicDifferentiationAlg/libshared
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/DevRepo/MathExpressParse/CMakeLists.txt D$:/DevRepo/MathExpressParse/Client/CMakeLists.txt D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/DevRepo/MathExpressParse/CMakeLists.txt D$:/DevRepo/MathExpressParse/Client/CMakeLists.txt D$:/DevRepo/MathExpressParse/Differentiation/CMakeLists.txt D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/DevRepo/MathExpressParse/CMakeLists.txt D$:/DevRepo/MathExpressParse/Client/CMakeLists.txt D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/CMakeLists.txt: phony
+build C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.5/CMakeCCompiler.cmake CMakeFiles/3.31.5/CMakeCXXCompiler.cmake CMakeFiles/3.31.5/CMakeRCCompiler.cmake CMakeFiles/3.31.5/CMakeSystem.cmake D$:/DevRepo/MathExpressParse/CMakeLists.txt D$:/DevRepo/MathExpressParse/Client/CMakeLists.txt D$:/DevRepo/MathExpressParse/Differentiation/CMakeLists.txt D$:/DevRepo/MathExpressParse/SymbolicDifferentiationAlg/CMakeLists.txt: phony
 
 
 #############################################

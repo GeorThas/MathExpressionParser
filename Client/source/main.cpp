@@ -11,6 +11,8 @@ int main() {
 
 	exTree.writeElemTree();
 
+	
+
 	system("pause");
 
 

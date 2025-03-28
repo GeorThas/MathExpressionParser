@@ -1,11 +1,14 @@
 # ninja log v6
-16	880	7614252934297882	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Node.cpp.obj	52afa7f7b28399d0
-4	1048	7614252934186179	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Error.cpp.obj	f0ef2824589b7c7d
-38	1138	7614252934544799	Client/CMakeFiles/math_parese.dir/source/main.cpp.obj	7f131b5da46c0ccf
-28	2177	7614252934420914	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Token.cpp.obj	a2236d824dbef48
-23	2540	7614252934375451	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ShuntingYardAlg.cpp.obj	a8a49b6a5444a1ce
-33	3728	7614252934461135	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/Tokenizator.cpp.obj	26a814d6a61b707
-12	3948	7614252934253603	SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir/source/ExpressionTree.cpp.obj	29cc0e124aac6d7d
-3954	4220	7614252976161611	SymbolicDifferentiationAlg/libshared_lib.dll	db1309874e4e3163
-3954	4220	7614252976161611	SymbolicDifferentiationAlg/libshared_lib.dll.a	db1309874e4e3163
-4220	4422	7614252976340846	Client/math_parese.exe	5d5963a1880c5e09
+15	1765	7647232532973330	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Node.cpp.obj	7a2d9dece1d619f0
+4	1900	7647232532822559	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Error.cpp.obj	b2fe4dd83afad184
+34	1933	7647232533161975	Client/CMakeFiles/math_parese.dir/source/main.cpp.obj	7f131b5da46c0ccf
+38	1957	7647232533222880	Differentiation/CMakeFiles/SymDiffLib.dir/source/diff.cpp.obj	1f1e094485cc644e
+24	3631	7647232533058285	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Token.cpp.obj	2ce01b577ec67c4e
+19	4034	7647232533015203	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ShuntingYardAlg.cpp.obj	ae13f8ce1250282f
+28	4956	7647232533109742	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/Tokenizator.cpp.obj	a48f6d7b90f032a6
+10	5307	7647232532895153	SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir/source/ExpressionTree.cpp.obj	ad3d267bf2cdf2bf
+5307	5657	7647232589171318	SymbolicDifferentiationAlg/libMathParseLib.dll	44c9fb4acd378beb
+5307	5657	7647232589171318	SymbolicDifferentiationAlg/libMathParseLib.dll.a	44c9fb4acd378beb
+5657	5842	7647232589380841	Client/math_parese.exe	5e89aaad34582f27
+5665	5850	7647232591142657	Differentiation/libSymDiffLib.dll	4ee5355a3a51efbd
+5665	5850	7647232591142657	Differentiation/libSymDiffLib.dll.a	4ee5355a3a51efbd

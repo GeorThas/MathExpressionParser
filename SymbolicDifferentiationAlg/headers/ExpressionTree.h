@@ -1,19 +1,10 @@
 #pragma once
 #include <vector>
+#include "Export.h"
 #include "Node.h"
 
-#ifndef MYCLASS_H
-#define MYCLASS_H
 
-
-#ifdef MYCLASS_EXPORTS
-#define MYCLASS_API __declspec(dllexport)
-#else
-#define MYCLASS_API __declspec(dllimport)
-#endif
-
-
-class MYCLASS_API ExpressionTree
+class DIFFLIB_API ExpressionTree
 {
 
 public:
@@ -23,6 +14,10 @@ public:
 	~ExpressionTree();
 
 	void writeElemTree();
+
+	Node* getHead(){
+		return head; //
+	}
 
 
 private: 
@@ -39,4 +34,3 @@ private:
 
 };
 
-#endif

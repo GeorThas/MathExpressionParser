@@ -2,7 +2,7 @@
 #include "Token.h"
 
 
-class Node {
+class DIFFLIB_API Node {
 
 public:
 

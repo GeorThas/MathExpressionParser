@@ -1,8 +1,11 @@
 D:/DevRepo/MathExpressParse/build/CMakeFiles/edit_cache.dir
 D:/DevRepo/MathExpressParse/build/CMakeFiles/rebuild_cache.dir
-D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg/CMakeFiles/shared_lib.dir
+D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg/CMakeFiles/MathParseLib.dir
 D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg/CMakeFiles/edit_cache.dir
 D:/DevRepo/MathExpressParse/build/SymbolicDifferentiationAlg/CMakeFiles/rebuild_cache.dir
 D:/DevRepo/MathExpressParse/build/Client/CMakeFiles/math_parese.dir
 D:/DevRepo/MathExpressParse/build/Client/CMakeFiles/edit_cache.dir
 D:/DevRepo/MathExpressParse/build/Client/CMakeFiles/rebuild_cache.dir
+D:/DevRepo/MathExpressParse/build/Differentiation/CMakeFiles/SymDiffLib.dir
+D:/DevRepo/MathExpressParse/build/Differentiation/CMakeFiles/edit_cache.dir
+D:/DevRepo/MathExpressParse/build/Differentiation/CMakeFiles/rebuild_cache.dir

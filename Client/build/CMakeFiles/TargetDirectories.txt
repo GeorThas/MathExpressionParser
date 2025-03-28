@@ -1,0 +1,3 @@
+D:/DevRepo/MathExpressParse/Client/build/CMakeFiles/math_parese.dir
+D:/DevRepo/MathExpressParse/Client/build/CMakeFiles/edit_cache.dir
+D:/DevRepo/MathExpressParse/Client/build/CMakeFiles/rebuild_cache.dir

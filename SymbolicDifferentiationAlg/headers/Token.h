@@ -1,20 +1,24 @@
 #pragma once
 
 #include <string>
+#include "Export.h"
 
-class Token
+
+
+
+class DIFFLIB_API Token
 {
 	public:
 
 	enum TokenType
 	{
-		OPERATOR,      // унарный/бинарный оператор
-		L_PARENTHESIS, // открывающая скобка
-		R_PARENTHESIS, // закрывающая скобка
-		NUM_LITERAL,   // число
-		FUNCTION,      // функция
-		SEPARATOR,      // разделитель аргументов функции
-		VARIABLE        // переменная
+		OPERATOR,      // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		L_PARENTHESIS, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+		R_PARENTHESIS, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+		NUM_LITERAL,   // пїЅпїЅпїЅпїЅпїЅ
+		FUNCTION,      // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		SEPARATOR,      // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		VARIABLE        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	};
 
 	enum OperationAssociativity
@@ -61,4 +65,5 @@ class Token
 		_tokenName = tokenName;
 	}
 };
+
 
